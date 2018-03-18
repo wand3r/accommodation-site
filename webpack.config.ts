@@ -40,7 +40,7 @@ const config: webpack.Configuration = {
   },
   output: {
     filename: "[name].js",
-    path: resolve(__dirname, "build"),
+    path: resolve(__dirname, "build", "client"),
     publicPath: "/",
   },
   devtool: "cheap-module-source-map",
