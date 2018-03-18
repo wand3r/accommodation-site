@@ -75,37 +75,87 @@ export const galleryData: GalleryData[] = [
     name: "Wokół domu",
     photos: [
       {
-        src: "/photos/summer/yard-1-x0.25.jpg",
-        width: 536,
-        height: 402,
+        src: '/photos/after-renovation/IMG_20170528_103157374-x0.15.jpg',
+        width: 624,
+        height: 468
+      },
+      { 
+        src: '/photos/after-renovation/IMG_20170528_103224692-x0.15.jpg',
+        width: 624,
+        height: 468 
       },
       {
-        src: "/photos/summer/yard-2-x0.25.jpg",
-        width: 536,
-        height: 402,
+        src: '/photos/after-renovation/IMG_20170528_103421649-x0.15.jpg',
+        width: 624,
+        height: 468
       },
-      {
-        src: "/photos/summer/yard-3-x0.25.jpg",
-        width: 536,
-        height: 402,
+      { 
+        src: '/photos/after-renovation/IMG_20170528_110910900-x0.15.jpg',
+        width: 624,
+        height: 468
+      },
+      { 
+        src: '/photos/after-renovation/IMG_20170528_111149292-x0.15.jpg',
+        width: 624,
+        height: 468 
+      },
+      { 
+        src: '/photos/after-renovation/IMG_20170528_112001922-x0.15.jpg',
+        width: 624,
+        height: 468 
+      },
+      { 
+        src: '/photos/after-renovation/IMG_20170528_112410108_HDR-x0.15.jpg',
+        width: 624,
+        height: 468
+      },
+      { 
+        src: '/photos/after-renovation/IMG_20170528_112535582-x0.15.jpg',
+        width: 624,
+        height: 468
+      },
+      { 
+        src: '/photos/after-renovation/IMG_20170528_112702189_HDR-x0.15.jpg',
+        width: 624,
+        height: 468 
+      },
+      { 
+        src: '/photos/after-renovation/IMG_20170818_081657059-x0.15.jpg',
+        width: 624,
+        height: 468
+      },
+      { 
+        src: '/photos/after-renovation/IMG_20170818_081724226-x0.15.jpg',
+        width: 624,
+        height: 468 
+      },
+      {  
+        src: '/photos/after-renovation/IMG_20170818_081746427-x0.15.jpg',
+        width: 624,
+        height: 468 
+      },
+      { 
+        src: '/photos/after-renovation/IMG_20170818_162536009_HDR-x0.15.jpg',
+        width: 624,
+        height: 468 
+      },
+      { 
+        src: '/photos/after-renovation/IMG_20170818_162722683-x0.15.jpg',
+        width: 624,
+        height: 468 
+      },
+      { 
+        src: '/photos/after-renovation/IMG_20170818_162927284-x0.15.jpg',
+        width: 468,
+        height: 624 
+      },
+      { 
+        src: '/photos/after-renovation/IMG_20170821_140937381-x0.15.jpg',
+        width: 624,
+        height: 468 
       },
       {
         src: "/photos/summer/yard-4-x0.25.jpg",
-        width: 536,
-        height: 402,
-      },
-      {
-        src: "/photos/summer/yard-5-x0.25.jpg",
-        width: 536,
-        height: 402,
-      },
-      {
-        src: "/photos/summer/yard-6-x0.25.jpg",
-        width: 536,
-        height: 402,
-      },
-      {
-        src: "/photos/summer/yard-7-x0.25.jpg",
         width: 536,
         height: 402,
       },
@@ -118,11 +168,6 @@ export const galleryData: GalleryData[] = [
         src: "/photos/summer/yard-9-x0.25.jpg",
         width: 768,
         height: 576,
-      },
-      {
-        src: "/photos/summer/yard-10-x0.25.jpg",
-        width: 816,
-        height: 460,
       },
       {
         src: "/photos/summer/backyard-1-x0.25.jpg",
@@ -151,26 +196,6 @@ export const galleryData: GalleryData[] = [
       },
       {
         src: "/photos/summer/backyard-6-x0.25.jpg",
-        width: 816,
-        height: 460,
-      },
-      {
-        src: "/photos/summer/building-from-road-1-x0.25.jpg",
-        width: 536,
-        height: 402,
-      },
-      {
-        src: "/photos/summer/building-from-road-2-x0.25.jpg",
-        width: 536,
-        height: 402,
-      },
-      {
-        src: "/photos/summer/building-from-road-3-x0.25.jpg",
-        width: 536,
-        height: 402,
-      },
-      {
-        src: "/photos/summer/building-from-lake-1-x0.25.jpg",
         width: 816,
         height: 460,
       },

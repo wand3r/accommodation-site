@@ -11,6 +11,11 @@ declare module "glamor-server" {
   export function renderStaticOptimized(fn: () => void): Result;
 }
 
+declare module "is-image" {
+  let m: (filePath: string) => boolean;
+  export = m; 
+}
+
 declare module "glamor" {
   export function rehydrate(ids: number[]): void;
   export interface CSSProperties {
@@ -333,3 +338,4 @@ declare module "glamor" {
    */
   export function attribsFor(...rules: Array<StyleAttribute>): string;
 }
+

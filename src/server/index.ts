@@ -1,6 +1,6 @@
 import { resolve } from "path";
-import * as express from "express";
-import * as compression from "compression";
+import express from "express";
+import compression from "compression";
 
 import { generateManually as generateSitemap } from "./sitemap";
 import * as template from "./template";
@@ -9,7 +9,7 @@ import { pageForPathExists } from "../pages/index";
 
 //Use env variable to set port in production to 80
 const port = 3001;
-const publicFolders = ["public", "build"];
+const publicFolders = ["public", "build/client"];
 
 const app = express();
 

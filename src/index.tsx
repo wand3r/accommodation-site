@@ -10,11 +10,6 @@ if (window.__glam) {
   rehydrate(window.__glam as any);
 }
 
-if (process.env.NODE_ENV !== "production") {
-  const { whyDidYouUpdate } = require("why-did-you-update");
-  whyDidYouUpdate(React);
-}
-
 const render = () => {
   const App = require("./app").App;
   ReactDOM.render(
