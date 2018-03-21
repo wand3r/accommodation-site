@@ -3,7 +3,7 @@ import { storiesOf } from "@kadira/storybook";
 import { number } from "@kadira/storybook-addon-knobs";
 
 import { PhotoGridLayout } from "./photo-grid-layout";
-import { CenterDecorator } from "../utils/storybook";
+import { CenterDecorator } from "../components/storybook";
 
 const photos = [
   { src: "photos/flat-front/flat-front-living-room-bed-room-2-x0.25.jpg", width: 816, height: 460 },

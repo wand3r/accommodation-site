@@ -3,7 +3,7 @@ import { PhotoCarouselGallery } from "./../components/photo-carousel-gallery";
 import flatsData, { FlatData, FlatDetailData } from "./flats-data";
 import { css } from "glamor";
 import { theme } from "./../theme";
-import { FitToContainerSize } from "../utils/components";
+import { FitToContainerSize } from "../components/fit-to-container-size";
 
 type FlatDetailsProps = { 
   details: FlatDetailData[]

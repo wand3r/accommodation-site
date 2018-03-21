@@ -1,7 +1,7 @@
 import * as React from "react";
 import { css } from "glamor";
 import { theme } from "../theme";
-import { DivImg } from "../utils/components";
+import { DivImg } from "../components/div-img";
 
 export const AboutUsPage = () =>
   <div {...css({ textAlign: "center" })}>

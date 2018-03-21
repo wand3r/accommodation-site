@@ -1,7 +1,7 @@
 import * as React from "react";
 import { storiesOf } from "@kadira/storybook";
 
-import { CenterDecorator } from "../utils/storybook";
+import { CenterDecorator } from "../components/storybook";
 import { PhotoStack, HoverablePhotoStack } from "./photo-stack";
 import { boolean, select } from "@kadira/storybook-addon-knobs";
 

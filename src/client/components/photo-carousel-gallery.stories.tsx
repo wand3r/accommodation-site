@@ -1,7 +1,7 @@
 import * as React from "react";
 import { storiesOf } from "@kadira/storybook";
 
-import { CenterDecorator } from "../utils/storybook";
+import { CenterDecorator } from "../components/storybook";
 import { PhotoCarouselGallery } from "./photo-carousel-gallery";
 
 const samplePhotos = [

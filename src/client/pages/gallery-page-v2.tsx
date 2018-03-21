@@ -3,9 +3,9 @@ import { css } from "glamor";
 
 import { HoverablePhotoStack as PhotoStack } from "../components/photo-stack";
 import { galleryData } from "./gallery-data";
-import { ProportionalDiv } from "../utils/components";
+import { ProportionalDiv } from "../components/proportional-div";
 import { PhotoGridLayout } from "../components/photo-grid-layout";
-import { throttle } from "../utils/index";
+import { throttle } from "../../utils/index";
 import { Link } from "./navigation-menu";
 import { theme } from "../theme";
 

@@ -1,7 +1,7 @@
 import * as React from "react";
 import { css } from "glamor";
 import { PhotoGridLayout } from "./../components/photo-grid-layout";
-import { FitToContainerSize } from "./../utils/components";
+import { FitToContainerSize } from "./../components/fit-to-container-size";
 import { theme } from "./../theme";
 import { galleryData, GalleryData, GalleryPhoto } from "./gallery-data";
 

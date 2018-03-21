@@ -1,7 +1,7 @@
 import * as SitemapGenerator from "sitemap-generator";
 import * as sitemapLib from "sitemap";
-import { pages } from "../pages";
-import { galleryData } from "../pages/gallery-data";
+import { pages } from "../client/pages";
+import { galleryData } from "../client/pages/gallery-data";
 
 type GeneratorType = "dynamic" | "manual-lib" | "manual";
 type Generator = (hostname: string) => Promise<string>;

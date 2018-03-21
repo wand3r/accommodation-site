@@ -36,7 +36,7 @@ if (environment === "production") {
 
 const config: webpack.Configuration = {
   entry: {
-    app: ["react-hot-loader/patch", resolve(__dirname, "src", "index.tsx")],
+    app: ["react-hot-loader/patch", resolve(__dirname, "src", "client", "index.tsx")],
   },
   output: {
     filename: "[name].js",

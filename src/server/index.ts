@@ -5,7 +5,7 @@ import compression from "compression";
 import { generateManually as generateSitemap } from "./sitemap";
 import * as template from "./template";
 import "../utils/arrayExtensions";
-import { pageForPathExists } from "../pages/index";
+import { pageForPathExists } from "../client/pages/index";
 
 //Use env variable to set port in production to 80
 const port = 3001;

@@ -2,7 +2,7 @@ import * as React from "react";
 import ReactDOM from "react-dom";
 import { css, keyframes } from "glamor";
 
-import { VisibilitySensor } from "./../utils/components";
+import { VisibilitySensor } from "./../components/visibility-sensor";
 import { colorPallet } from "../theme";
 
 type PhotoCellProps = {

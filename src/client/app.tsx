@@ -1,7 +1,7 @@
 import * as React from "react";
 
 import { Layout } from "./pages/layout";
-import { addOnChangeListener, removeOnChangeListener } from "./utils/history";
+import { addOnChangeListener, removeOnChangeListener } from "../utils/history";
 import { applyGlobalStyle } from "./style";
 import { pages } from "./pages";
 

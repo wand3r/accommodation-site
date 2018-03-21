@@ -2,7 +2,7 @@ import * as React from "react";
 import { css } from "glamor";
 
 import { theme } from "./../theme";
-import { pushState } from "../utils/history";
+import { pushState } from "../../utils/history";
 import { matchPathsByFirstPart } from "./index";
 
 type LinkProps = {

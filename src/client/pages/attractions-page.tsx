@@ -2,7 +2,8 @@ import * as React from "react";
 import { css } from "glamor";
 import { theme, colorPallet } from "../theme";
 import { data } from "./attractions-data";
-import { ProportionalDiv, DivImg } from "../utils/components";
+import { ProportionalDiv } from "../components/proportional-div";
+import { DivImg } from "../components/div-img";
 
 type AttractionsPageProps = {
   attractions?: {

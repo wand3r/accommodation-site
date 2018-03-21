@@ -3,7 +3,7 @@ import { storiesOf } from "@kadira/storybook";
 
 
 import { ContactPage } from "./contact-page";
-import { CenterDecorator } from "../utils/storybook";
+import { CenterDecorator } from "../components/storybook";
 
 storiesOf("Contact page", module)
   .add(

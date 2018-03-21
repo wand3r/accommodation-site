@@ -1,6 +1,6 @@
 import * as React from "react";
-import { fitRectDimensions } from "./../utils";
-import * as List from "./../utils/list";
+import { fitRectDimensions } from "./../../utils";
+import * as List from "./../../utils/list";
 import { css } from "glamor";
 import { colorPallet } from "../theme";
 
