@@ -7,8 +7,7 @@ import * as template from "./template";
 import "../utils/arrayExtensions";
 import { pageForPathExists } from "../client/pages/index";
 
-//Use env variable to set port in production to 80
-const port = 3001;
+const port = process.env.PORT || 3001;
 const publicFolders = ["public", "build/client"];
 
 const app = express();
